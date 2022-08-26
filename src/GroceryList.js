@@ -13,7 +13,7 @@ export class GrocerList extends Component {
 
     addItem(input){
         if (input===''){
-            alert('Please enter an item')
+            alert('Please enter an item!')
         }
         else{
             let listArray = this.state.groceryList;
